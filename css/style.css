@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/Fundo.jpg);
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #121214;
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header div {
+  margin: 32px auto;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  border-radius: 50%;
+
+  width: 128px;
+  height: 128px;
+}
+
+header img {
+  width: 93.75%;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+section {
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+
+  padding-top: 4px;
+  border-radius: 10px;
+}
+
+section div {
+  padding: 24px 0 32px 32px;
+  background-color: #2A2634;
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 24px;
+  font-weight: black;
+
+  color: #fff;
+  letter-spacing: -0.47px;
+}
+
+section p {
+  font-size: 16px;
+
+  color: #A1A1AA;
+  letter-spacing: -0.18px;
+}
+
+section ul {
+  margin-top: 24px;
+
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* Ajustes de Imagens */
+
+.game-list img {
+  border-radius: 8px;
+  max-width: 90px;
+}
+
+.channel-list img {
+  border-radius: 50%;
+  max-width: 70px;
+}
+
+.social-medias svg {
+  width: 32px;
+  height: 32px;
+}
